@@ -1,0 +1,114 @@
+# ==============================================================================
+# AI Real Estate Deal Analyzer - Git Ignore Configuration
+# ==============================================================================
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+*.env
+backend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# Python Virtual Environments & Packages
+backend/venv/
+backend/.venv/
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+parts/
+var/
+sdist/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Databases & User Data
+backend/data/*.db
+backend/data/*.sqlite
+backend/data/*.sqlite3
+backend/data/*.db-journal
+backend/data/*.db-wal
+backend/data/*.db-shm
+*.db
+*.sqlite
+*.sqlite3
+!backend/data/.gitkeep
+
+# Node / Next.js Dependencies & Artifacts
+frontend/node_modules/
+node_modules/
+frontend/.next/
+.next/
+frontend/out/
+out/
+frontend/build/
+build/
+dist/
+frontend/dist/
+.npm
+.yarn/cache/
+.yarn/unplugged/
+.pnp
+.pnp.js
+
+# Logs & Debug Output
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+logs/
+backend/logs/
+
+# Generated Reports & Temporary Files
+*.pdf
+backend/reports/
+reports/
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE & Editor Configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
